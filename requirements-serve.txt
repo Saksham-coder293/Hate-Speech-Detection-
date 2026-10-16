@@ -1,0 +1,8 @@
+# Production / Docker image (smaller: no pandas, matplotlib)
+scikit-learn==1.5.2
+numpy==2.2.6
+nltk
+joblib
+gradio==5.50.0
+fastapi
+uvicorn

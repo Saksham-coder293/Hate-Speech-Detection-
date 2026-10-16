@@ -1,0 +1,44 @@
+{
+  "classes": [
+    "Hate Speech",
+    "No hate or offensive language",
+    "Offensive Language"
+  ],
+  "accuracy": 0.8718983256001613,
+  "macro_f1": 0.7420740096706472,
+  "baseline_macro_f1": 0.7109462059956009,
+  "best_C": 1,
+  "report": {
+    "Hate Speech": {
+      "precision": 0.35030549898167007,
+      "recall": 0.6013986013986014,
+      "f1-score": 0.44272844272844275,
+      "support": 286.0
+    },
+    "No hate or offensive language": {
+      "precision": 0.7951564076690212,
+      "recall": 0.9459783913565426,
+      "f1-score": 0.8640350877192983,
+      "support": 833.0
+    },
+    "Offensive Language": {
+      "precision": 0.9674820143884892,
+      "recall": 0.8759770713913496,
+      "f1-score": 0.9194584985642007,
+      "support": 3838.0
+    },
+    "accuracy": 0.8718983256001613,
+    "macro avg": {
+      "precision": 0.7043146403463935,
+      "recall": 0.8077846880488312,
+      "f1-score": 0.7420740096706472,
+      "support": 4957.0
+    },
+    "weighted avg": {
+      "precision": 0.9029147935283587,
+      "recall": 0.8718983256001613,
+      "f1-score": 0.8826393544845496,
+      "support": 4957.0
+    }
+  }
+}
